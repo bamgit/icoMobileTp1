@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">PremiereApplication</string>
+    <string name="app_name">Premiere Application By BAMMOU</string>
+    <string name="label_nom">Nom :</string>
+    <string name="label_prenom">Prenom :</string>
+    <string name="label_age">Age :</string>
+    <string name="label_domaine">Domaine de compétences :</string>
+    <string name="label_numero">Numéro de tel :</string>
+    <string name="button_valider">Valider</string>
+
 </resources>

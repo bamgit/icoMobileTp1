@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">First Application By BAMMOU</string>
+    <string name="label_nom">Last Name :</string>
+    <string name="label_prenom">First Name :</string>
+    <string name="label_age">Age :</string>
+    <string name="label_domaine">Skills area :</string>
+    <string name="label_numero">Phone number :</string>
+    <string name="button_valider">Validate</string>
+</resources>
