@@ -7,4 +7,8 @@
     <string name="label_domaine">Skills area :</string>
     <string name="label_numero">Phone number :</string>
     <string name="button_valider">Validate</string>
+    <string name="confirmation_message">Are you sure ?</string>
+    <string name="confirmation_titre">Confirmation</string>
+    <string name="confirmer">Confirm</string>
+    <string name="annuler">Cancel</string>
 </resources>

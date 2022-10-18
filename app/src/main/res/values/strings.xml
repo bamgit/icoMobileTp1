@@ -6,5 +6,8 @@
     <string name="label_domaine">Domaine de compétences :</string>
     <string name="label_numero">Numéro de tel :</string>
     <string name="button_valider">Valider</string>
-
+    <string name="confirmation_message">Êtes-vous sur ?</string>
+    <string name="confirmation_titre">Confirmation</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="annuler">Annuler</string>
 </resources>
