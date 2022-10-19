@@ -11,4 +11,7 @@
     <string name="confirmation_titre">Confirmation</string>
     <string name="confirmer">Confirm</string>
     <string name="annuler">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="retour">BACK</string>
+    <string name="ecran_vide">Empty screen!</string>
 </resources>

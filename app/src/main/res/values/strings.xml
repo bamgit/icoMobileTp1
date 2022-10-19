@@ -10,4 +10,7 @@
     <string name="confirmation_titre">Confirmation</string>
     <string name="confirmer">Confirmer</string>
     <string name="annuler">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="retour">RETOUR</string>
+    <string name="ecran_vide">Ecran vide !</string>
 </resources>

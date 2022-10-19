@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -50,6 +51,22 @@ public class MainActivity extends AppCompatActivity {
                 // CONFIRMER
                 // Changer la couleur des champs en vert en cas de click sur "confirmer"
                 modifierCouleurDesChamps("green"); // voir la fct ci-dessus
+                // Lancer une nouvelle activité :
+
+                // Retrouver les EditText
+                EditText nom_champ = (EditText) findViewById(R.id.editTextNom);
+                EditText prenom_champ = (EditText) findViewById(R.id.editTextPrenom);
+                EditText age_champ = (EditText) findViewById(R.id.editTextAge);
+                EditText domaine_champ = (EditText) findViewById(R.id.editTextDomaine);
+                EditText num_champ = (EditText) findViewById(R.id.editTextNumeroTel);
+
+                Intent myIntent = new Intent(MainActivity.this, DeuxiemeActivity.class);
+                myIntent.putExtra("nomValue", nom_champ.getText().toString()); // récupérer le nom
+                myIntent.putExtra("prenomValue", prenom_champ.getText().toString()); // récupérer le prénom
+                myIntent.putExtra("ageValue", age_champ.getText().toString()); // récupérer l'age
+                myIntent.putExtra("domaineValue", domaine_champ.getText().toString()); // récupérer le domaine de compétences
+                myIntent.putExtra("numeroValue", num_champ.getText().toString()); // récupérer le numéro de tel
+                MainActivity.this.startActivity(myIntent);
             }
         })
         .setNegativeButton(R.string.annuler, new DialogInterface.OnClickListener() {
