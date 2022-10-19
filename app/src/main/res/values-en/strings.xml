@@ -14,4 +14,5 @@
     <string name="ok">OK</string>
     <string name="retour">BACK</string>
     <string name="ecran_vide">Empty screen!</string>
+    <string name="lancer_appel">Make a call</string>
 </resources>

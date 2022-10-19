@@ -6,13 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".TroisiemeActivity">
 
-    <TextView
-        android:id="@+id/textViewEcranVide"
+    <ImageView
+        android:id="@+id/imageViewPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ecran_vide"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/phone_icon" />
+
+    <TextView
+        android:id="@+id/textViewNumToCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_numero"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPhone" />
+
+    <Button
+        android:id="@+id/buttonLancerAppel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lancer_appel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewNumToCall"
+        app:layout_constraintVertical_bias="0.13999999" />
 </androidx.constraintlayout.widget.ConstraintLayout>

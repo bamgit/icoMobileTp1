@@ -44,6 +44,7 @@ public class DeuxiemeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Lancer une nouvelle (3ème) activité :
                 Intent myIntent = new Intent(DeuxiemeActivity.this, TroisiemeActivity.class);
+                myIntent.putExtra("numeroValue", numeroValeur.toString()); // envoyer le num de tel => 3eme activity
                 DeuxiemeActivity.this.startActivity(myIntent);
             }
         });
